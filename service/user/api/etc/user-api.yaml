@@ -1,0 +1,11 @@
+Name: user-api
+Host: 0.0.0.0
+Port: 8888
+Mysql:
+  DataSource: root:!QAZ2wsx@tcp(10.3.4.115:13306)/book?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai
+CacheRedis:
+  - Host: 10.3.4.115:16379
+    Type: node
+Auth:
+  AccessSecret: e382cc09-9348-4466-81a0-8af2e9131e05
+  AccessExpire: 3600
